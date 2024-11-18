@@ -6,7 +6,7 @@
 body {
   font-family: "Courier New", Courier, monospace;
 }
-.circle {
+/* .circle {
   background-color: #fff;
   padding: 15px 40px;
   border-radius: 8px;
@@ -14,9 +14,9 @@ body {
   text-decoration: none;
   margin: 100px auto 100px;
   line-height: 90px;
-
+  cursor: pointer;
   text-align: center;
-}
+} */
 h1 {
   font-weight: 600;
   font-size: 58px;
@@ -27,7 +27,9 @@ h1 {
   font-size: 45px;
   word-spacing: -9px;
 }
-
+span {
+  display: block;
+}
 button {
   width: 124px;
   height: 46px;
@@ -37,8 +39,9 @@ button {
   font-size: 25px;
   font-weight: 800;
 }
-.buttons {
-  cursor: pointer;
+nav {
+  text-align: center;
+  padding-top: 5%;
 }
 #red {
   background: red;
