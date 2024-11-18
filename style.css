@@ -25,33 +25,51 @@ h1 {
 .para {
   font-weight: 600;
   font-size: 45px;
+  word-spacing: -9px;
 }
-.red {
+
+button {
+  width: 124px;
+  height: 46px;
+  border-radius: 25px;
+  background-color: rgb(227, 220, 220);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+}
+.buttons {
+  cursor: pointer;
+}
+#red {
   background: grey;
   width: 100px;
   height: 100px;
   border: solid black 2px;
   display: inline-block;
+  border-radius: 100px;
 }
 
-.green {
+#green {
   background: white;
   width: 100px;
   height: 100px;
   border: solid black 2px;
   display: inline-block;
+  border-radius: 100px;
 }
-.blue {
+#blue {
   background: blue;
   width: 100px;
   height: 100px;
   border: solid black 2px;
   display: inline-block;
+  border-radius: 100px;
 }
-.yellow {
+#yellow {
   background: yellow;
   width: 100px;
   height: 100px;
   border: solid black 2px;
   display: inline-block;
+  border-radius: 100px;
 }
