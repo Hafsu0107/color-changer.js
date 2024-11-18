@@ -41,7 +41,7 @@ button {
   cursor: pointer;
 }
 #red {
-  background: grey;
+  background: red;
   width: 100px;
   height: 100px;
   border: solid black 2px;
@@ -50,7 +50,7 @@ button {
 }
 
 #green {
-  background: white;
+  background: green;
   width: 100px;
   height: 100px;
   border: solid black 2px;
