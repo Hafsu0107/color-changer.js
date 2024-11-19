@@ -16,10 +16,11 @@ button {
   width: 124px;
   height: 46px;
   border-radius: 25px;
-  background-color: rgb(227, 220, 220);
+  background-color: rgb(105, 103, 103);
   color: #fff;
   font-size: 25px;
   font-weight: 800;
+  border: none;
 }
 a {
   color: #fff;
