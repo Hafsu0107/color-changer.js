@@ -31,7 +31,7 @@ function validateGuess(guess) {
     prevGuess.push(guess);
     if (numGuess === 11) {
       displayGuess(guess);
-      displayMessage("Game over. Random number was ${randomNumber}");
+      displayMessage(`Game over. Random number was ${randomNumber}`);
       endGame();
     } else {
       displayGuess(guess);
@@ -52,13 +52,13 @@ function checkGuess(guess) {
 }
 function displayGuess(guess) {
   userInput.value = "";
-  guessSlot.innerHTML += "${guess}, ";
+  guessSlot.innerHTML += `${guess}, `;
   numGuess++;
-  remaining.innerHTML = "${11 - numGuess} ";
+  remaining.innerHTML = `${11 - numGuess} `;
 }
 
-function displayMessage(meassage) {
-  lowOhri.innerHTML = "<h2>${message}</h2>";
+function displayMessage(message) {
+  lowOhri.innerHTML = `<h2>${message}</h2>`;
 }
 
 function endGame() {
@@ -77,7 +77,7 @@ function newGame() {
     prevGuess = [];
     numGuess = 1;
     guessSlot.innerHTML = "";
-    remaining.innerHTML = "${11 - numGuess} ";
+    remaining.innerHTML = `${11 - numGuess} `;
     userInput.removeAttribute("diabled");
     startOver.removeChild(p);
     playGame = true;
